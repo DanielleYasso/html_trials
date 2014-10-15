@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Trial 8: A Fancier Form </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>A Fancy Form</h1>
+
+    <form action="/">
+        <div>
+            <label for="name_input">Name</label>
+            <input type="text" name="name" id="name_input">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <label for="favorite_color">Favorite Color</label>
+            <select name="favorite_color" id="favorite_color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="fuchsia">Fuchsia</option>
+                <option value="magenta" selected>Magenta</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="music" value="love">Love music!
+            <input type="radio" name="music" value="hate">Hate music!
+        </div>
+        <div>
+            Is it raining?<input type="checkbox" name="weather" value="raining">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

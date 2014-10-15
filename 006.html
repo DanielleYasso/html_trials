@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title> Trial 6: Mixing and Mixing</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #redBlock {
+            background-color: red;
+        }
+        #blueBlock {
+            background-color: blue;
+        }
+        .stacked {
+            width: 350px;
+            height: 200px;
+            display: inline-block;
+        }
+        .black_block {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            margin-left: 50px;
+            margin-top: 50px;
+            display: inline-block; 
+        }
+
+    </style>
+</head>
+<body> 
+    <!-- Outer block -->
+    <div id="redBlock" class="stacked">
+        <!-- Inner blocks -->
+        <div class="black_block"></div><div class="black_block"></div>
+    </div><!--
+    Connecting inline elements
+ --><div id="blueBlock" class="stacked">
+        <!-- Inner blocks -->
+        <div class="black_block"></div><div class="black_block"></div>
+    </div>
+</body>
+</html>

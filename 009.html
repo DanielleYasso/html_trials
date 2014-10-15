@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Trial 9: The Fanciest Form </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .left {
+            width: 125px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>A Fancy Form</h1>
+
+    <form action="/">
+        <div>
+            <div class="left"><label for="name_input">Name</label></div>
+            <input type="text" name="name" id="name_input">
+        </div>
+        <div>
+            <div class="left"><label for="age">Age</label></div>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <div class="left"><label for="favorite_color">Favorite Color</label></div>
+            <select name="favorite_color" id="favorite_color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="fuchsia">Fuchsia</option>
+                <option value="magenta" selected>Magenta</option>
+            </select>
+        </div> 
+        <div>
+            <div class="left">Love music!</div>
+            <input type="radio" name="music" value="love">
+        </div>
+        <div>
+            <div class="left">Hate music!</div>
+            <input type="radio" name="music" value="hate">
+        </div>
+        <div>
+            <div class="left">Is it raining?</div>
+            <input type="checkbox" name="weather" value="raining">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
